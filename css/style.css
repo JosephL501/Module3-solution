@@ -1,0 +1,33 @@
+/********** Basic styling **********/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Verdana, sans-serif;
+}
+
+/********** Base styling **********/
+/********** Header styling **********/
+header {
+  background-color: lightgray;
+  border: 2px solid black;
+}
+
+nav>h1 {
+  color: red;
+}
+
+nav {
+}
+
+.dropdown {
+
+}
+/********** Body styling **********/
+
+/********** Main Content styling **********/
+
+/********** Media styling **********/
