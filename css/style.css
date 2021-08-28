@@ -16,8 +16,12 @@ body {
   border: 0
 }
 
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border: 2px solid black;
+}
+
 .collapse, .navbar-collapse {
-  background-color: lightblue;
+  background-color: white;
 }
 
 .navbar-brand {
@@ -41,7 +45,6 @@ body {
 }
 #nav-list a {
   color: black;
-  text-align: center;
 }
 #nav-list a:hover {
   background: lightgray;
@@ -66,13 +69,10 @@ body {
   margin-top: -30px;
 }
 
-li:nth-child(odd) {
+hr {
   border: 1px solid black;
-}
+  margin: 0;
 
-li:nth-child(even) {
-  border-left: 1px solid black;
-  border-right: 1px solid black;
 }
 /********** Body styling **********/
 h1 {
@@ -81,6 +81,7 @@ h1 {
 /********** Main Content styling **********/
 .container-main {
   background-color: lightgray;
+  margin-left: 9%;
 }
 
 h3 {
